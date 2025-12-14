@@ -33,3 +33,4 @@ def create_movie(movie_title: str,
         movie.genres.set(genres_ids)
     if actors_ids is not None:
         movie.actors.set(actors_ids)
+    return movie
